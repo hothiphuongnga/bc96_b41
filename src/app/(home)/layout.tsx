@@ -6,7 +6,7 @@ type Props = {
 
 export default function layout({children}: Props) {
   return (
-    <div>
+    <div className='min-h-full flex flex-col'>
          <header className="flex h-16 items-center justify-between border-b border-gray-200 bg-white px-6 shadow-sm">
             {/* LEFT */}
             <div>

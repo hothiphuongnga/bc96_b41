@@ -27,7 +27,7 @@ export default function ProductSearch({ products }: Props) {
       <p className="text-sm text-gray-500">
         Tìm thấy {filteredProducts.length} sản phẩm
       </p>
-      <div className="flex gap-3">
+      <div className="grid grid-cols-3 gap-3 ">
         {filteredProducts?.map((product) => (
           //  tach produccard ra ngoài
           <ProductCard key={product.id} product={product} />

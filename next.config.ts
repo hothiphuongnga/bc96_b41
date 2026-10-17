@@ -10,6 +10,20 @@ const nextConfig: NextConfig = {
       },
     },
   },
+  images:{
+    remotePatterns: [
+       {
+        protocol: 'https',
+        hostname: 'apistore.cybersoft.edu.vn',
+        pathname: '/**',
+      },
+      {
+        protocol: "https",
+        hostname: "i.pravatar.cc",
+        pathname: "/**",
+      },
+    ]
+  }
 };
 
 export default nextConfig;
