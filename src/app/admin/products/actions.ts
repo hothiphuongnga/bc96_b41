@@ -1,3 +1,4 @@
+'use server';
 import { productService } from "@/services/product.service";
 import { ProductPayload } from "@/types/product.type";
 
