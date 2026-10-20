@@ -1,7 +1,6 @@
 // type : dinh nghie ket quả tra ve cua api
 
 import { API_CONFIG } from "@/config/api.config";
-import { headers } from "next/headers";
 
 // generic type
 export type ApiResponse<T> = {
