@@ -15,3 +15,10 @@
  npm run dev
 ```
 
+
+
+4 cách ql state
+ - usestate : state dùng trong component
+ - lifting state up: truyền state từ component cha xuống component con thông qua props
+ - context: state dùng chung cho nhiều component thông qua Context API
+ - thu viện : Redux Toolkit, Zustand, Recoil, Jotai, ...

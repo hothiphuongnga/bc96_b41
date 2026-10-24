@@ -1,8 +1,14 @@
 import { configureStore } from "@reduxjs/toolkit";
-
+import couterReducer from "./features/couterSlice";
+import productReducer from "./features/productSlice";
+import userReducer from "./features/userSlice";
 export const makeStore = () => {
-  return configureStore({
-    reducer: {},
+  return configureStore({ // đăng ký các reducer cho store
+    reducer: {
+      couter: couterReducer,
+      product: productReducer,
+      user: userReducer,
+    },
   });
 };
 
