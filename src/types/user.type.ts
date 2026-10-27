@@ -12,3 +12,26 @@ export type UserType = {
   avatar: string;
   favoriteProducts?: string;
 }
+
+export type SignInPayload = {
+  email: string;
+  password: string;
+}
+export type SignInResponse = {
+  email: string;
+  accessToken: string;
+}
+
+export type UserProfile = {
+  ordersHistory: unknown[];
+  email: string;
+  name: string;
+  password: null;
+  gender: boolean;
+  phone: string;
+  facebookId: string;
+  deleted: boolean;
+  avatar: string;
+  image: string;
+};
+

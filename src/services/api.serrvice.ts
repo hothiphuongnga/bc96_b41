@@ -6,7 +6,7 @@ import { API_CONFIG } from "@/config/api.config";
 export type ApiResponse<T> = {
     content: T;
     message: string;
-    status: number;
+    statusCode: number;
 };
 type FetchOptions = RequestInit & {
   next?: NextFetchRequestConfig;
